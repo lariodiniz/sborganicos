@@ -45,10 +45,15 @@ E-commerce feito em Python
     			Um para a descrição da tag 0.0.1, que será criada pelo Git Flow para facilitar mudanças de versão 				no software (Descreva exatamente o que foi adicionado e/ou modificado);
     			Uma para você editar o texto do merge commit relacionado ao merge entre a branch master e a 				branch develop (sugiro para que você deixe o texto padrão deixado pelo Git.);
 
-	10 - faça um pull
+	10 - faça um push:
+		Ubuntu = "git push origin master"
 
+	11 - Agora faça um PULL REQUEST
+		Vá a sua página no GitHub e clique em "Pull Request", será aberta uma página 			para que você descreva algum comentário, preencha os campos e clique em "send Pull Request".
+
+Agora é só esperar o mantenedor aceita-la ou não.
 
 
 
 # Contribuições:
-
+	-- Lário Diniz 
