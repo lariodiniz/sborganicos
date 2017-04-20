@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'sborganicos.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'sborganicos_db',
+        'USER': 'sborganico',
+        'PASSWORD': 'ty7c8j89',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -132,7 +136,7 @@ LOGOUT_URL = 'logout'
 AUTH_USER_MODEL = 'users.User'
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-    'accounts.backends.ModelBackend',
+    'users.backends.ModelBackend',
 )
 
 # Messages
