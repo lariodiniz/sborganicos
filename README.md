@@ -4,6 +4,7 @@ Um E-commerce feito em Django (Python 3) para a venda de produtos organicos da e
 
 ### Pré-requisitos
 
+
     -- git
     -- git flow
     -- Django==2.1.2

@@ -171,6 +171,6 @@ fabric.properties
 .idea/workspace.xml
 .idea/misc.xml
 
-.idea/*
+.idea/
 
 sborganicos/settings_local.py
