@@ -30,6 +30,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #app
+    'usuarios',
+
 ]
 
 MIDDLEWARE = [
@@ -133,6 +137,8 @@ MESSAGE_TAGS = {
     messages_constantes.WARNING: 'warning',
     messages_constantes.ERROR: 'danger'
 }
+
+AUTH_USER_MODEL = 'usuarios.Usuarios'
 
 try:
     from .settings_local import *

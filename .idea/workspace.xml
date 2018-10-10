@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf53a834-0766-4c81-b360-e9c6be300e9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/models/Usuarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/tests/Models/UsuariosTestCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/tests/Models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sborganicos/settings_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sborganicos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sborganicos/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/tests.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +28,7 @@
     <session id="1978995235">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="3" />
@@ -33,15 +42,15 @@
           <entry key="gitgnore" value="11" />
           <entry key="gitignore" value="5" />
           <entry key="md" value="7" />
-          <entry key="py" value="6" />
-          <entry key="txt" value="11" />
+          <entry key="py" value="15" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -50,32 +59,22 @@
           <entry key="gitgnore" value="41" />
           <entry key="gitignore" value="3" />
           <entry key="md" value="8" />
-          <entry key="py" value="40" />
-          <entry key="txt" value="66" />
+          <entry key="py" value="568" />
+          <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="8" />
-          <entry key="PLAIN_TEXT" value="121" />
-          <entry key="Python" value="40" />
+          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="Python" value="568" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,18 +107,24 @@
         <option value="$PROJECT_DIR$/requeriments.txt" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/sborganicos/settings.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/usuarios/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/usuarios/tests/Models/__init__.py" />
+        <option value="$PROJECT_DIR$/sborganicos/settings.py" />
+        <option value="$PROJECT_DIR$/usuarios/models/__init__.py" />
+        <option value="$PROJECT_DIR$/usuarios/models/Usuarios.py" />
+        <option value="$PROJECT_DIR$/usuarios/tests/Models/UsuariosTestCase.py" />
+        <option value="$PROJECT_DIR$/usuarios/admin.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="65" />
     <option name="width" value="1296" />
-    <option name="height" value="848" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -137,6 +142,11 @@
               <item name="sborganicos" type="b2602c69:ProjectViewProjectNode" />
               <item name="sborganicos" type="462c0819:PsiDirectoryNode" />
               <item name="sborganicos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sborganicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sborganicos" type="462c0819:PsiDirectoryNode" />
+              <item name="usuarios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,8 +206,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="65" width="1296" height="848" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2645631" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -210,7 +219,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919093" visible="true" weight="0.4397759" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919093" visible="true" weight="0.24942264" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008091" side_tool="true" weight="0.7118998" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290993" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -327,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sborganicos/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="114" column="37" lean-forward="true" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requeriments.txt" />
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -349,17 +351,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="506">
+          <caret line="175" column="29" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sborganicos/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/models/Usuarios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#53#62#0" expanded="true" />
+            <marker date="1539206449136" expanded="true" signature="1413:1418" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#54#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/tests/Models/UsuariosTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="e#54#86#0" expanded="true" />
+            <marker date="1539207100541" expanded="true" signature="267:272" ph="..." />
+            <marker date="1539207100541" expanded="true" signature="318:538" ph="..." />
+            <marker date="1539207100541" expanded="true" signature="504:510" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuarios/tests/Models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
