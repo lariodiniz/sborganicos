@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #app
-    'usuarios',
+    'contas',
 
 ]
 
@@ -138,7 +138,7 @@ MESSAGE_TAGS = {
     messages_constantes.ERROR: 'danger'
 }
 
-AUTH_USER_MODEL = 'usuarios.Usuarios'
+AUTH_USER_MODEL = 'contas.Usuarios'
 
 try:
     from .settings_local import *

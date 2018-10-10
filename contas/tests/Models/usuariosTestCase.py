@@ -6,7 +6,7 @@ from django.test import TestCase
 
 from model_mommy import mommy
 
-from usuarios.models import Usuarios
+from contas.models import Usuarios
 
 
 class UsuariosTestCase(TestCase):

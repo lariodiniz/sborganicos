@@ -1,10 +1,12 @@
-#coding: utf-8
+# coding: utf-8
 __author__ = "Lário dos Santos Diniz"
+
 import re
 
 from django.db import models
 from django.core import validators
 from django.contrib.auth.models import AbstractBaseUser, UserManager, PermissionsMixin
+
 
 class Usuarios(AbstractBaseUser, PermissionsMixin):
     username = models.CharField(
